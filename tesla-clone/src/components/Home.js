@@ -5,7 +5,28 @@ import Section from './Section';
 function Home() {
   return (
     <Container>
-      <Section/>
+      <Section 
+        title="Model S" 
+        description="Order Online for Touchless Delivery" 
+        backgroundImg="model-s.jpeg"
+        leftBtnText="Custom order"
+        rightBtnText="Existing inventory"
+      />
+      <Section
+        title="Model Y" 
+        description="Order Online for Touchless Delivery" 
+        backgroundImg="model-y.jpeg"
+        leftBtnText="Custom order"
+        rightBtnText="Existing inventory"
+      />
+      <Section
+        title="Model Y" 
+        description="Order Online for Touchless Delivery" 
+        backgroundImg="model-y.jpeg"
+        leftBtnText="Custom order"
+        rightBtnText="Existing inventory"
+      />
+
     </Container>
   )
 }
