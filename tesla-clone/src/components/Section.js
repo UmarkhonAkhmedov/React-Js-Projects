@@ -21,8 +21,7 @@ function Section({ title, description, leftBtnText, rightBtnText,  backgroundImg
           {rightBtnText &&  
             <RightButton>
               {rightBtnText}
-            </RightButton>
-          }
+            </RightButton>}
         </ButtonGroup>
         </Fade>
         <DownArrow src="/images/down-arrow.svg"/>
@@ -49,8 +48,8 @@ const Wrap = styled.div`
 
 const ItemText = styled.div`
   padding-top: 15vh;
-  text-align: text;
-
+  text-align: center;
+  z-index: -1;
 `
 
 
