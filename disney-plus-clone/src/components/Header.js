@@ -45,6 +45,7 @@ const Nav = styled.nav`
   height: 70px;
   background: #090b13;
   padding: 0 36px;
+  overflow-x: hidden;
 
 `
 
