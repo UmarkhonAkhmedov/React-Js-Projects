@@ -9,6 +9,11 @@ function Login() {
         <SignUp>
           GET ALL THERE
         </SignUp>
+        <Description>
+          Get Premier Access to Raya and the Last Dragon for an additional fee with a Disney's subscription.
+          As of 03/26/2021, the price of Disneys and The Disney Bundle will increase by $1.
+        </Description>
+        <CTALogoTwo src="/images/cta-logo-two.png"/>
       </CTA>
     </Container>
   )
@@ -19,7 +24,7 @@ export default Login
 const Container = styled.div`
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   height: calc(100vh - 70px);
 
@@ -34,6 +39,7 @@ const Container = styled.div`
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.7;
     z-index: -1;
   }
 `
@@ -42,8 +48,10 @@ const CTA = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 650px;
-  width: 70%;
+  width: 80%;
   padding: 80px 40px;
+  margin-top: 80px;
+  align-items: center;
 `
 
 const CTALogoOne = styled.img`
@@ -68,5 +76,15 @@ const SignUp = styled.a`
   &:hover {
     background-color: #0483ee;
   }
+`
 
+const Description = styled.p`
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  line-height: 1.5;
+`
+
+const CTALogoTwo = styled.img`
+  width: 90%;
 `
