@@ -1,4 +1,4 @@
-import React { useEffect }from 'react'
+import React, { useEffect } from 'react'
 import { auth, provider } from '../firebase'
 import styled from 'styled-components';
 import { useHistory } from "react-router-dom"
