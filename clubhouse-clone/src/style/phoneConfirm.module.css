@@ -1,0 +1,33 @@
+.phoneConfirmContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 3em 1.7em;
+  background-color: #f2f0e4;
+}
+
+.phoneConfirmContainer h1 {
+  font-size: 1.3em;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0;
+  color: var(--textColor);
+}
+
+.phoneConfirmContainer p {
+  font-size: 0.775em;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  width: 100%;
+  max-width: 270px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.phoneConfirmContainer p span {
+  font-weight: 500;
+}
