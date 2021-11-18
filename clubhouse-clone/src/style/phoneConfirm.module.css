@@ -31,3 +31,14 @@
 .phoneConfirmContainer p span {
   font-weight: 500;
 }
+
+.backBtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.backBtn Img {
+  width: 20px;
+
+}

@@ -13,11 +13,11 @@ export default function Welcome(){
         <p>Paul, Rohan & the Clubhouse team</p>
       </div>
       <div className={style.actionBtn}>
-        <Link exat to = '/get_username' className='primaryBtn d-flex align-center mb-3'>
+        <Link to = '/get_username' className='primaryBtn d-flex align-center mb-3'>
           Get your username{" "}
           {/* <img src="" alt=""></img> */}
         </Link>
-        <Link>
+        <Link to = '/sign_in'>
           Have an invite text? Sign in
         </Link>
       </div>
