@@ -33,3 +33,7 @@ a {
   text-align: center;
   text-decoration: none;
 }
+
+a:hover {
+  text-decoration: none !important;
+}
