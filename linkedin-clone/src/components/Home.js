@@ -3,7 +3,8 @@ import styled from "styled-components";
 const Home = (props) => {
   return (
     <div>
-      Home
+      dwdwdw
+      <h1>It is good</h1>
     </div>
   )
 }

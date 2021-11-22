@@ -1,20 +1,23 @@
 import styled from "styled-components";
+import Home from "./Home";
 
 const Header = (props) => {
   return (
-    <Container>
-      <Content>
-        <Logo><a href="/home"><img src="/images/home-logo.svg" alt="Logo"/></a></Logo>
-        <Search>
-          <div>
-            <input type="text" placeholder="Search"/>
-          </div>
-          <SearchIcon>
-            <img src="/images/search-icon.svg" alt="Search Icon"/>
-          </SearchIcon>
-        </Search>
-      </Content>
-    </Container>
+    <>
+      <Container>
+        <Content>
+          <Logo><a href="/home"><img src="/images/home-logo.svg" alt="Logo"/></a></Logo>
+          <Search>
+            <div>
+              <input type="text" placeholder="Search"/>
+            </div>
+            <SearchIcon>
+              <img src="/images/search-icon.svg" alt="Search Icon"/>
+            </SearchIcon>
+          </Search>
+        </Content>
+      </Container>
+    </>
   )
 }
 
