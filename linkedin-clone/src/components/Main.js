@@ -11,5 +11,5 @@ const Main = (props) => {
 export default Main
 
 const Container = styled.div`
-  grid-area: main;
+  grid-area: Main;
 `

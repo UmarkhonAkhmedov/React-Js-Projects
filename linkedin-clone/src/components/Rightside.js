@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Rightside = (props) => {
   return (
     <Container>
-      RightSide
+      
     </Container>
   )
 }
@@ -11,5 +11,5 @@ const Rightside = (props) => {
 export default Rightside
 
 const Container = styled.div`
-  grid-area: rightside;
+  grid-area: Rightside;
 `
