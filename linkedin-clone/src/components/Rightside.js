@@ -108,6 +108,7 @@ const Recommendation = styled.a`
   font-size: 14px;
 `
 const BannerCard = styled(FollowCard)`
+  margin-top: 15px;
   img {
     width: 100%;
     height: 100%;
