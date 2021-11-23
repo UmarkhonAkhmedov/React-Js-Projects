@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import Home from "./Home";
 
 const Header = (props) => {
   return (
     <>
+      <Home/>
       <Container>
         <Content>
           <Logo><a href="/home"><img src="/images/home-logo.svg" alt="Logo"/></a></Logo>
