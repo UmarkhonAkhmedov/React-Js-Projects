@@ -28,7 +28,32 @@ const Main = (props) => {
           </button>
         </div>
       </ShareBox>
+      <div>
+        <Article>
+          <SharedActor>
+            <a>
+              <img src="/images/user.svg" alt=""/>
+              <div>
+                <span>Title</span>
+                <span>Info</span>
+                <span>Date</span>
+              </div>
+            </a>
+            <button>
+              <img src="/images/ellipsis.svg"/>
+            </button>
+          </SharedActor>
+          <Description>
+            <SharedImage>
+              <a>
+                <img src="/images/shared-image.jpg"/>
+              </a>
+            </SharedImage>
+          </Description>
+        </Article>
+      </div>
     </Container>
+
   )
 }
 
@@ -101,5 +126,76 @@ const ShareBox = styled(CommonCard)`
         }
       }
     }
+  }
+`
+const Article = styled(CommonCard)`
+  padding: 0;
+  margin: 0 0 8px;
+  overflow: visible;
+`
+const SharedActor = styled.div`
+  padding-right: 40px;
+  flex-wrap: nowrap;
+  padding: 12px 16px 0;
+  margin-bottom: 8px;
+  align-items: center;
+  display: flex;
+  a {
+    margin-right: 12px;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    text-decoration: none;
+
+    img {
+      width: 48px;
+      height: 48px;
+    }
+    & > div {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-basis: 0;
+      margin-left: 8px;
+      overflow: hidden;
+      span {
+        text-align: left;
+        &:first-child {
+          font-size: 14px;
+          font-weight: 700;
+          color: rgba(0, 0, 0, 1);
+        }
+        &:nth-child(n+1){
+          font-size: 12px;
+          color: rgba(0, 0, 0, 0.6);
+        }
+      }
+    }
+  }
+  button {
+    position: absolute;
+    right: 12px;
+    top: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+`
+const Description = styled.div`
+  padding: 0 16px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  text-align: left;
+`
+const SharedImage = styled.div`
+  margin-top: 8px;
+  width: 100%;
+  display: block;
+  position: relative;
+  background-color: #f9fafb;img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
   }
 `
