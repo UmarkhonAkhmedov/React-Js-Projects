@@ -5,6 +5,10 @@ import { signInAPI } from '../actions'
 const Login = (props) => {
   return (
     <Container>
+      {
+        props.user && 
+        <Redirect to='/home'/>
+      }
       <Nav>
         <a href="/"><img src="/images/login-logo.svg" alt="Website Logo"></img></a>
         <div>
@@ -26,7 +30,9 @@ const Login = (props) => {
 }
 
 const mapStateToProps = (state) => {
-  return {};
+  return {
+    user: state.userState.user,
+  };
 }
 const mapDispatchToProps = (dispatch) => ({
   signIn: () => dispatch(signInAPI()),
@@ -127,7 +133,7 @@ const Hero = styled.div`
   }
   img {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     width: 700px;
     height: 670px;
     bottom: -2px;
@@ -166,4 +172,6 @@ const Google = styled.button`
     background-color: rgba(207, 207, 207, 0.25);
     color: rgba(0, 0, 0, 0.75);
   }
+`
+const Redirect = styled.div`
 `
