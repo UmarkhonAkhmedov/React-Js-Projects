@@ -7,21 +7,21 @@ const posts = [
     username: 'Umarkhon',
     userImg: 'https://avatars.githubusercontent.com/u/76143018?v=4',
     img: 'https://images3.alphacoders.com/823/thumb-1920-82317.jpg',
-    caption: 'SUBSCRIBE AND DESTROY THE LIKE BUTTON FOR THE YT ALGORITHM!'
+    caption: 'Subscribe and destroy the like button for the Youtube algorithms'
   },
   {
     id: '123',
     username: 'Umarkhon',
     userImg: 'https://avatars.githubusercontent.com/u/76143018?v=4',
     img: 'https://images3.alphacoders.com/823/thumb-1920-82317.jpg',
-    caption: 'SUBSCRIBE AND DESTROY THE LIKE BUTTON FOR THE YT ALGORITHM!'
+    caption: 'Subscribe and destroy the like button for the Youtube algorithms'
   },
   {
     id: '123',
     username: 'Umarkhon',
     userImg: 'https://avatars.githubusercontent.com/u/76143018?v=4',
     img: 'https://images3.alphacoders.com/823/thumb-1920-82317.jpg',
-    caption: 'SUBSCRIBE AND DESTROY THE LIKE BUTTON FOR THE YT ALGORITHM!'
+    caption: 'Subscribe and destroy the like button for the Youtube algorithms'
   }
 ]
 
