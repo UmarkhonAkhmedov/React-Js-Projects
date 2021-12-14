@@ -4,8 +4,10 @@ import {
   ChatIcon,
   DotsHorizontalIcon,
   EmojiHappyIcon,
+  HeartIcon,
   PaperAirplaneIcon
 } from "@heroicons/react/outline"
+import { HeartIcon as HeartIconFilled } from "@heroicons/react/solid"
 
 function Post({id, username, userImg, img, caption}) {
   return (
@@ -15,6 +17,18 @@ function Post({id, username, userImg, img, caption}) {
         <p className='flex-1 font-bold'>{username}</p>
         <DotsHorizontalIcon className='h-5'/>
       </div>
+      <img className='object-cover w-full' src={img} alt=""/>
+
+
+      <div className='flex justify-between px-4 pt-4'>
+        <div className='flex space-x-4'>
+          <HeartIcon className='btn'/>
+          <ChatIcon className='btn'/>
+          <PaperAirplaneIcon className='btn'/>
+        </div>
+        <BookmarkIcon className="btn"/>
+      </div>
+
     </div>
   )
 }
