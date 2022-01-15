@@ -22,7 +22,7 @@ const FeaturedPostCard = ({ post }) => (
         <p className="inline align-middle text-white text-shadow ml-2 font-medium">{post.author.name}</p>
       </div>
     </div>
-    <Link href={`/post/${post.slug}`}><span className="cursor-pointer absolute w-full h-full" /></Link>
+    <Link href={`/post/${post.slug}`} passHref ><span className="cursor-pointer absolute w-full h-full"/></Link>
   </div>
 );
 
