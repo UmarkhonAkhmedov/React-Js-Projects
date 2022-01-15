@@ -13,6 +13,7 @@ const CommentsForm = ({ slug }) => {
     nameEl.current.value = window.localStorage.getItem('name')
     nameEl.current.value = window.localStorage.getItem('email')
   }, [])
+  
   const handleCommentSubmission = () => {
     setError(false);
     const { value: comment } = commentEl.current
